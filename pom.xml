@@ -18,6 +18,8 @@
     <quarkus.platform.version>1.12.1.Final</quarkus.platform.version>
     <surefire-plugin.version>3.0.0-M5</surefire-plugin.version>
     <docker-java.version>3.2.7</docker-java.version>
+    <asciitable.version>0.3.2</asciitable.version>
+    <quarkus-prettytime.version>0.0.1</quarkus-prettytime.version>
   </properties>
   <dependencyManagement>
     <dependencies>
@@ -49,6 +51,16 @@
       <groupId>com.github.docker-java</groupId>
       <artifactId>docker-java-transport-httpclient5</artifactId>
       <version>${docker-java.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>de.vandermeer</groupId>
+      <artifactId>asciitable</artifactId>
+      <version>${asciitable.version}</version>
+    </dependency>
+    <dependency>
+      <groupId>io.quarkiverse.prettytime</groupId>
+      <artifactId>quarkus-prettytime</artifactId>
+      <version>${quarkus-prettytime.version}</version>
     </dependency>
 
 
